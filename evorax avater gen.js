@@ -16,8 +16,6 @@ const svgToJpeg = async (svgUrl, outputPath, jpegQuality = 80) => {
     console.error("変換エラー:", error);
   }
 };
-
-// 例: SVG の URL から JPEG を生成して保存
 const svgUrl = "https://source.boringavatars.com/beam";
 const outputPath = "avatar.jpg";
 svgToJpeg(svgUrl, outputPath);
